@@ -1,0 +1,63 @@
+html{
+    font-size: 20px;
+    background: url(atlantic-ocean.jpg);
+    background-size: 100% 100%;
+    font-family: 'Gloria Hallelujah', sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.ja{
+    margin: 50px;
+    width: 60px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: aliceblue;
+    outline: none
+}
+
+.ja:hover{
+    transform: scale(1.2);
+    border-color: goldenrod;
+}
+
+img{
+    width: 125px;
+    height: 150px;  
+}
+
+.word-line{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.word{
+    margin: 50px;
+    font-weight: bold;
+}
+
+#output{
+  font-size:50px;
+  
+}
+
+
+footer{
+    background-color: green;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
